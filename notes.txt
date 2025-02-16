@@ -1,0 +1,2 @@
+add ocr
+page area selector
