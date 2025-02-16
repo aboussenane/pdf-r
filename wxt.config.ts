@@ -2,10 +2,8 @@ import { defineConfig } from "wxt";
 
 // See https://wxt.dev/api/config.html
 export default defineConfig({
-  extensionApi: "chrome",
-  modules: ["@wxt-dev/module-react"],
   manifest: {
-    manifest_version: 1,
+    manifest_version: 3,
     name: "Webpage to PDF",
     version: "1.0",
     description: "Capture a webpage screenshot and save it as a PDF",
@@ -16,7 +14,6 @@ export default defineConfig({
     },
     action: {
       default_popup: "popup.html",
-    },
-    
+    }
   },
 });
