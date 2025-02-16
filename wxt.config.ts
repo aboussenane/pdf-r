@@ -8,7 +8,6 @@ export default defineConfig({
     version: "1.0",
     description: "Capture a webpage screenshot and save it as a PDF",
     permissions: ["tabs", "activeTab", "downloads", "scripting"],
-    host_permissions: ["<all_urls>"],
     background: {
       service_worker: "background.ts",
     },
